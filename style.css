@@ -1,0 +1,34 @@
+
+   table {
+       border: solid 2px black;
+   }
+
+   th,  td {
+       border: solid 2px black;
+   }
+
+   .container{
+    border: 2px solid black;
+    
+}
+.row{
+       border: 2px solid black;
+
+   }
+.col1{
+       border: 2px solid black;
+        background-color: aqua;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+   }
+.col2{
+       border: 2px solid black;
+    background-color: brown;
+   }
+.col3{
+       border: 2px solid black;
+    background-color: blue;
+   }
