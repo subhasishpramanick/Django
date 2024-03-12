@@ -1,10 +1,14 @@
 
    table {
-       border: solid 2px black;
+       border-style: solid;
+       border-color: black;
+       border-width: 5px;
+       border-collapse: collapse;
    }
+ 
 
    th,  td {
-       border: solid 2px black;
+       border: solid 5px black;
    }
 
    .container{
@@ -32,3 +36,29 @@
        border: 2px solid black;
     background-color: blue;
    }
+
+   .border{
+    margin-top: 10px;
+    border-top: solid 2px black;
+    border-left: dotted  2px red;
+    border-bottom: dashed 2px blue;
+    border-right: double 2px green;
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+
+    /* RGB:- rgb(red(0-255),green(0-255),blue(0-255))
+        HEX:- #rrggbb(00-ff) */
+
+
+
+  /*  background-color: rgba(0,0,255,0.2) ;*/
+
+  background-color: #0000ff;
+    color: black;
+
+font-weight: bold;
+font-family: "Lucida console", "Courier New", monospace;
+
+
+   }    
