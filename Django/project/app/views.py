@@ -15,5 +15,10 @@ def contact(request):
         new = contactdetails(name=Name,email=Email,query=Query)
         new.save()
         
-    return render(request,'contact.html')
+        user_contact_details=contactdetails.objects.all()
+        context={
+            'C_details':user_contact_details
+        }
+        
+    return render(request,'contact.html',context)
     
